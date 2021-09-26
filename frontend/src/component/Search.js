@@ -21,6 +21,8 @@ let dataSearch=Data.stores.filter((item)=>{
     }
     
    });
+
+   
     return(
         <div>
              <section className="py-4 conatiner">
@@ -29,6 +31,7 @@ let dataSearch=Data.stores.filter((item)=>{
                     <div className="col-12 mb-5">
                         <div className="mb-3 col-4 mx-auto text-center">
                             <label className="form-label h4">Welcome to Store Search</label>
+                            
                             <input type="text" placeholder="Enter Store name..."
                             className="form-control"
                             value={search}
